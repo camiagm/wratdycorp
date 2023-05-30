@@ -129,7 +129,7 @@ body .text p {
 }
 
 .tarjeta {
-  padding: 80px;
+  padding: 10px;
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -140,7 +140,6 @@ body .text p {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 .tarjeta .tarjetas .tarjeta_img {
   width: 500px;
@@ -253,5 +252,11 @@ body .text p {
     right: 0;
     width: 500;
     height: 100%;
+  }
+  .tarjetas {
+    width: 100%;
+  }
+  .tarjetas .tarjeta_img {
+    width: 300px;
   }
 }/*# sourceMappingURL=style.css.map */

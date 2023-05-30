@@ -1,5 +1,5 @@
 .tarjeta{
-    padding: 80px;
+    padding: 10px;
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -9,7 +9,6 @@
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        gap: 20px;
         .tarjeta_img{
             width: 500px;
         }

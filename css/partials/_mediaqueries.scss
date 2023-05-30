@@ -1,0 +1,47 @@
+@media screen and (max-width:480px) {
+    .titulo{
+        font-size: 20px;
+        color: fuchsia;
+    }
+    .text h2{
+        font-size:15px ;
+    }
+    .text h3{
+        font-size: 10px;
+    }
+    .text p{
+        font-size: 8px;
+    }
+    .caja{
+        max-height: 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+           "box1" 
+           "box2" 
+           "box3"
+           "box4"
+           "box5";
+        padding-top: 50px;
+        margin: auto;
+    }
+    .tv{
+        width: 700px;
+        .video-responsive {
+             position: relative;
+             overflow: hidden;
+             width: 100%;
+             padding-top: 56.25%;
+             .iframe{
+                 position: relative;
+                 top: 0;
+                 left: 0;
+                 bottom: 0;
+                 right: 0;
+                 width: 500;
+                height: 100%;
+             }
+        }
+
+    }
+}

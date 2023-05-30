@@ -1,0 +1,22 @@
+.tarjeta{
+    padding: 80px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    .tarjetas{
+        background-color: rgba(119, 147, 178, 0.485);
+        border-radius: 30px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .tarjeta_img{
+            width: 500px;
+        }
+        .tarjeta_titulo{
+            text-align: center;
+            padding-bottom: 20px;
+        }
+    }
+
+}

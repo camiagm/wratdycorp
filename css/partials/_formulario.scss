@@ -1,0 +1,45 @@
+.registro{
+    font-size: 20px;
+    text-align: center;
+    color: $maincolor;
+}
+.list-registro{
+    text-align: center;
+    .reg-item{
+        font-size: 18px;
+        color: $secondarycolor;
+        text-decoration: none;
+        list-style: circle;
+        list-style-position: inside;
+    }
+}
+.formulario-registro{
+    width: 400px;
+    background: rgb(182, 170, 230) ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    color: aliceblue;
+    .formulario-registro h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .controls{
+        width: 100%;
+        color: $maincolor;
+        background: rgba(251, 250, 255, 0.588);
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        border: 2px; 
+        font-size: 18px;
+    }
+    .botonreg{
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+}

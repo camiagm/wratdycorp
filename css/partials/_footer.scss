@@ -1,0 +1,15 @@
+.pie{
+    background-color: $secondarycolor;
+    color: $maincolor;
+    padding-block: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    .pie p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .pie a{
+        text-align: right;
+    }
+}

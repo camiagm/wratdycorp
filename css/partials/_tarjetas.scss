@@ -9,12 +9,17 @@
         overflow: hidden;
         display: flex;
         flex-direction: column;
+        transition: all .3s;
         .tarjeta_img{
             width: 500px;
         }
         .tarjeta_titulo{
             text-align: center;
             padding-bottom: 20px;
+        }
+        .tarjeta:hover{
+            transform: scale(1.1) translateY(-20px);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
         }
     }
 

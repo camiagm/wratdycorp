@@ -15,34 +15,20 @@
     .caja{
         max-height: 50px;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr 1fr 1fr);
         grid-template-areas: 
-           "box1" 
-           "box2" 
-           "box3"
-           "box4"
-           "box5";
+           "box1 box3 box5" 
+           "box2 box4" ;
         padding-top: 50px;
         margin: auto;
     }
-    .tv{
-        width: 700px;
-        .video-responsive {
-             position: relative;
-             overflow: hidden;
-             width: 100%;
-             padding-top: 56.25%;
-             .iframe{
-                 position: relative;
-                 top: 0;
-                 left: 0;
-                 bottom: 0;
-                 right: 0;
-                 width: 500;
-                height: 100%;
-             }
-        }
+  
+    .iframe{
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
     }
+        
     .tarjetas{
         width: 100%;
         .tarjeta_img{

@@ -6,12 +6,12 @@
   font-family: "chivo mono", monospace;
 }
 *::-moz-selection {
-  background-color: fuchsia;
-  color: antiquewhite;
+  background-color: rgb(28, 60, 205);
+  color: rgb(233, 230, 228);
 }
 *::selection {
-  background-color: fuchsia;
-  color: antiquewhite;
+  background-color: rgb(28, 60, 205);
+  color: rgb(233, 230, 228);
 }
 
 body {
@@ -23,26 +23,26 @@ body .botonpie {
   color: black;
 }
 body .titulo {
-  color: rgb(225, 111, 11);
+  color: rgb(47, 38, 168);
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.7rem;
   margin-bottom: 50px;
 }
 body .tituloprincipal {
   color: rgb(225, 111, 11);
   text-align: center;
-  font-size: 70px;
+  font-size: 2rem;
 }
 body .text h2 {
-  font-size: 60px;
+  font-size: 1.7rem;
   text-align: center;
   padding-bottom: 30px;
   margin: 20px;
 }
 body .text h3 {
-  font-size: 40px;
+  font-size: 1.6rem;
   text-align: center;
   padding-bottom: 20px;
   margin: 20px;
@@ -50,11 +50,11 @@ body .text h3 {
 body .text p {
   width: 90%;
   height: 25%;
-  background-color: rgb(54, 54, 160);
+  background-color: rgba(235, 235, 240, 0.471);
   padding: 20px;
   margin: 20px;
   margin-left: 5%;
-  font-size: 30px;
+  font-size: 1.2rem;
   text-align: center;
   justify-content: space-around;
 }
@@ -72,6 +72,7 @@ body .text p {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "box1 box2 box3 box4 box5";
   padding-top: 50px;
+  padding-bottom: 200px;
   margin: auto;
 }
 .caja .box1 {
@@ -149,7 +150,7 @@ body .text p {
   transition: all 0.3s;
 }
 .tarjeta .tarjetas .tarjeta_img {
-  width: 500px;
+  width: 400px;
 }
 .tarjeta .tarjetas .tarjeta_titulo {
   text-align: center;
@@ -221,7 +222,7 @@ body .text p {
   padding: 0 15px;
 }
 .footer .footer-links h4 {
-  font-size: 20px;
+  font-size: 1.2rem;
   color: white;
   margin-bottom: 25px;
   font-weight: 500;
@@ -230,7 +231,7 @@ body .text p {
   display: inline-block;
 }
 .footer .footer-links ul li a {
-  font-size: 18px;
+  font-size: 1rem;
   text-decoration: none;
   color: #16161c;
   display: block;
@@ -243,36 +244,19 @@ body .text p {
 }
 
 @media screen and (max-width: 480px) {
-  .titulo {
-    font-size: 20px;
-    color: fuchsia;
-  }
-  .text h2 {
-    font-size: 15px;
-  }
-  .text h3 {
-    font-size: 10px;
-  }
-  .text p {
-    font-size: 8px;
-  }
   .caja {
     max-height: 50px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-areas: "box1" "box2" "box3" "box4" "box5";
+    grid-template-rows: repeat(3, 1fr 1fr 1fr);
+    grid-template-areas: "box1 box3 box5" "box2 box4";
     padding-top: 50px;
     margin: auto;
   }
-  .iframe {
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
+  .footer-row {
+    text-align: center;
   }
-  .tarjetas {
+  .footer-links {
     width: 100%;
-  }
-  .tarjetas .tarjeta_img {
-    width: 300px;
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
